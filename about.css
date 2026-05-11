@@ -1,0 +1,139 @@
+.body1 {
+    background-color: rgb(90, 91, 87);
+
+}
+
+.teacher h1 {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin-left: 750px;
+    background-color: rgb(56, 194, 194);
+    box-shadow: 5px 5px 10px gray;
+}
+
+.pic {
+    width: 200px;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 50% 10px;
+    box-shadow: 5px 5px 10px rgb(17, 14, 14);
+
+}
+
+.picr {
+    height: 300px;
+    width: 230px;
+}
+
+.teachers {
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    padding: 3px 30px 60px;
+    background-color: rgb(9, 66, 123);
+    width: 380px;
+    color: rgb(223, 215, 215);
+    box-shadow: 8px 2px 20px gray;
+    margin-top: 90px;
+    font-size: 17px;
+    border-radius: 40px;
+
+
+}
+
+.teachers:hover {
+    transform: scale(1.08);
+    box-shadow: 10px 10px 20px rgb(190, 95, 95);
+}
+
+.teachers h3 {
+    color: rgb(147, 238, 10);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.teachers1 {
+    text-align: center;
+    margin-left: 150px;
+    padding: 3px 30px 150px;
+    background-color: rgb(9, 66, 123);
+    color: rgb(223, 215, 215);
+
+    width: 380px;
+    height: 460px;
+    box-shadow: 8px 2px 20px gray;
+    margin-top: 80px;
+    font-size: 17px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+}
+
+.teachers1 h3 {
+    color: rgb(147, 238, 10);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.teachers1:hover {
+    transform: scale(1.08);
+    box-shadow: 10px 10px 20px rgb(190, 95, 95);
+}
+
+.nav {
+    display: flex;
+}
+
+@media (max-width: 500px){
+    * .teacher h1 {
+        width: 90%;
+        padding: 12px 20px 10px;
+        margin-left: 13px;
+        margin:20px auto;
+        font-size: 20px;
+
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+
+    .teachers,
+    .teachers1{
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    .pic{
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .picr{
+        width: 160px;
+        height: 200px;
+    }
+
+    .teachers h2,
+    .teachers1 h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .teachers h3,
+    .teachers1 h3{
+        font-size: 16px;
+    }
+
+    .teachers h4,
+    .teachers1 h4{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+

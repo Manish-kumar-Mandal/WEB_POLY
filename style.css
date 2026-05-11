@@ -66,10 +66,6 @@
 
 }
 
-.footer {
-    background-color: black;
-}
-
 .last {
     margin-top: 6vh;
     font-size: medium;
@@ -130,12 +126,13 @@
 
     .hea {
         text-align: center;
-        width: 42px;
-        height: 10px;
+        width: 49px;
+        height: 14px;
+        
         padding: 1px 10px 7px;
         font-size: 14px;
         margin-bottom: 10px;
-        margin-top: 8px;
+        margin-top: 7px;
         margin-left: 3px;
         margin-right: -19px;
         border-radius: 9px;
